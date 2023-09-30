@@ -1,9 +1,9 @@
 <div align="center">
 
-  # ❓ Extension Template
+  # ⏲ Timestamps
 
-  <sub>Example Goldy Bot V5 extension.</sub>
+  <sub>Little extension that provides useful commands for dealing with time and date.</sub>
+
+  <img src="./assets/image_1.png" width="300px">
 
 </div>
-
-> You may use this as a template to get started rapidly. ⚡

@@ -1,6 +1,6 @@
 [project]
-name = "example"
-description = "Example Goldy Bot V5 extension."
+name = "timestamps"
+description = "Little extension that provides useful commands for dealing with time and date."
 authors = [
     {name = "Goldy", email = "goldy@devgoldy.xyz"},
 ]
@@ -11,10 +11,9 @@ keywords = [
     "example extension", "extension template"
 ]
 dependencies = [
-    "GoldyBot>=5.0dev9", # Tells goldy bot which version of the framework this extension is for.
+    "GoldyBot>=5.0dev11", # Tells goldy bot which version of the framework this extension is for.
 
-    "devgoldyutils>=2.5.4", # Example dependency.
-    "Pillow" # Example dependency.
+    "pytz"
 ]
 version = "1.0.0"
 
@@ -24,5 +23,5 @@ dev = [
 ]
 
 [project.urls]
-GitHub = "https://github.com/Goldy-Bot/Goldy-Bot-V5"
-BugTracker = "https://github.com/Goldy-Bot/Goldy-Bot-V5/issues"
+GitHub = "https://github.com/Goldy-Bot/timestamps"
+BugTracker = "https://github.com/Goldy-Bot/timestamps/issues"
