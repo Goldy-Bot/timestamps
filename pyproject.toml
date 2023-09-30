@@ -1,0 +1,28 @@
+[project]
+name = "example"
+description = "Example Goldy Bot V5 extension."
+authors = [
+    {name = "Goldy", email = "goldy@devgoldy.xyz"},
+]
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+keywords = [
+    "example extension", "extension template"
+]
+dependencies = [
+    "GoldyBot>=5.0dev9", # Tells goldy bot which version of the framework this extension is for.
+
+    "devgoldyutils>=2.5.4", # Example dependency.
+    "Pillow" # Example dependency.
+]
+version = "1.0.0"
+
+[project.optional-dependencies]
+dev = [
+    "ruff"
+]
+
+[project.urls]
+GitHub = "https://github.com/Goldy-Bot/Goldy-Bot-V5"
+BugTracker = "https://github.com/Goldy-Bot/Goldy-Bot-V5/issues"
